@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #272727;
+}
+.square {
+    background: #272727;
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 30px;
+    border: 1px solid white;
+    color: white;
+}
+.square:focus {
+    outline: none;
+}
+.game {
+    display: flex;
+    flex-direction: row;
+}
+.status {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
